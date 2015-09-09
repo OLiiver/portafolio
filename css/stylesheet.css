@@ -1,0 +1,58 @@
+header {
+	color: white;
+	padding: 40px;
+	font-size: 20px;
+}
+
+header a {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+header a:link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+header a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.background-main {
+	background-image: url(fondo_perfil.jpg);
+	background-repeat: no-repeat;
+	height: 660px;	
+}
+
+.background-about {
+	background-image: url(laptop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 660px;	
+	opacity: .8;
+}
+
+.background-portfolio {
+	background-image: url(portfolio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 660px;	
+}
+
+.background-contact {
+	background-image: url(work.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 660px;	
+	opacity: .8;
+}
+
+footer{
+	background-color: #2B2B2B;
+	color: white;
+}
+
+img {
+	vertical-align: bottom;
+}
