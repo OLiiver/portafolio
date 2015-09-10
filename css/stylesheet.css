@@ -25,7 +25,7 @@ header a:hover {
 	background-size: cover;
 }
 @media (min-width: 750px){
-	.background-main{height: 660px;
+	body .background-main{height: 660px;
 }
 }
 .background-main {
