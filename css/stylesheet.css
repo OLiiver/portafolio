@@ -8,8 +8,8 @@ header a {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-header a:link {
-	color: #fff;
+header a:link , header a:active, header a:visited{
+	color: #CAD6D1;
 	text-decoration: none;
 	font-size: 30px;
 }
@@ -24,23 +24,26 @@ header a:hover {
 	border-top: 10px solid black;
 	background-size: cover;
 }
-
+@media (min-width: 750px){
+	.background-main{height: 660px;
+}
+}
 .background-main {
-	background-image: url(fondo_perfil.jpg);
+	background-image: url(http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/fondo_perfil_zpszqswuqc3.jpg);
 	background-repeat: no-repeat;
-	height: 660px;
+	height: 400p;
 }
 
 .background-about {
-	background-image: url(laptop.jpg);
+	background-image: url(http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/laptop-849800_1280_zpsdgl47qe3.jpg);
 }
 
 .background-portfolio {
-	background-image: url(portfolio.jpg);
+	background-image: url(http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/the-background-811346_1280_zpswcbhmb60.jpg);
 }
 
 .background-contact {
-	background-image: url(work.jpg);
+	background-image: url(http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/work-864960_1280_zpsc7kpcavf.jpg);
 }
 
 footer{
@@ -135,4 +138,31 @@ label {
 
 .habi .bar {
 	padding-right: 100px;
+}
+.img-redes{
+	width: 50px;
+	height: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+
+@media (max-width: 750px){
+	.name-habil{
+		display: inline-block;
+		width: 38%;
+		padding-right: 0;
+	}
+	.bar {
+		display: inline-block;
+		width: 59%;
+		padding-left: 0
+	}
+	.img-perfil {
+		width: 122px;
+		height: 120px;
+	}
+	.background-about{
+		height: 940px;
+	}
 }

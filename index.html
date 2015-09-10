@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="author" content="Oliver Ramirez">
 	<meta name="description" content="Perfil profesional">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Perfil</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
@@ -17,39 +18,37 @@
 </head>
 <body>
 	<!-- Encabezado - menu -->
-	<div class="container-fluid background-main">
+	<div class="container-fluid background-main background">
 		<header>	
 			<div class="row">
-			
-				<div class="col-md-12">
-						<nav class="col-md-12 text-center">
-							<img src="images/logo.png" alt="Logo">
-							<a href="#">Sobre mí</a>
-							<a href="#">Trabajos</a>
-							<a href="#">contacto</a>
-						</nav>
-				</header>
+				<div class="col-sm-12">
+					<nav class="col-sm-12 text-center">
+						<img src="http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/logo_zps1bocsofc.png" alt="Logo">
+						<a href="#sbm">Sobre mí</a>
+						<a href="#portaf">Trabajos</a>
+						<a href="#contact">contacto</a>
+					</nav>
+				</div>
 			</div>
-		</div>
+		</header>
 	</div>
 		
-	</div>
 	<!--  contenedor del contenido   -->
 	<div>
 		<!--   Acerca de mi  -->
-		<div class="background-about background">
+		<div id="sbm"class="background-about background">
 			<div class="container-fluid ">
 			<!--  titulo - sub-titulo  -->
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<div class="col-sm-12 text-center">
 						<h2 class="nombre">Oliver Ramirez</h2>
 						<h3>Front end developer</h3>
 					</div>
 				</div>
 					<!--  Imagen, descripción y habilidades -->
 				<div class="row ">
-					<div class="col-md-6 text-center descripcion">
-						<img  class="img-perfil" src="images/oliiv.jpg" alt="Imagen de perfil">
+					<div class="col-sm-6 text-center descripcion">
+						<img  class="img-perfil" src="http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/oliiv_zpsctiejona.jpg" alt="Imagen de perfil">
 						<p>Soy Diseñador y Desarrollador web.</p>
 						<p>Amante del diseño, la fotografia</p>
 						<p>y experimentar por montones codeando</p>
@@ -57,10 +56,10 @@
 					</div>
 					<!--   Habilidades   -->
 
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<h3>Habilidades</h3>
 						<div class="row habi">
-							<div class="col-md-3">
+							<div class="col-sm-3 name-habil">
 								<ul>
 									<li> HTML 5 </li>
 									<li> CSS 3 </li>
@@ -73,11 +72,11 @@
 									<li> Wordpress </li>
 								</ul>
 							</div>
-							<div class="col-md-9 bar">
+							<div class="col-sm-9 bar">
 								<ul>
-									<li> 
-										<div class="meter orange nostripes">
-											<span style="width: 70%"></span>
+									<li>
+										<div class="meter orange nostripes"> 
+											<span style="width: 70%"></span>			
 										</div> 
 									</li>
 									<li> 
@@ -131,10 +130,10 @@
 			</div>
 		</div>
 			<!--   Portafolio  -->
-		<div class="background-portfolio background">
+		<div id="portaf"class="background-portfolio background">
 			<div class="container-fluid ">	
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-sm-12">
 						<div></div>
 						<div></div>
 						<div></div>
@@ -143,10 +142,10 @@
 			</div>
 		</div>
 			<!--  Contacto   -->
-		<div class="background-contact background">
+		<div id="contact"class="background-contact background">
 			<div class="container ">	
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-sm-12">
 						<div class="background-form">
 
 						<form name="sentMessage" role="form">
@@ -176,21 +175,21 @@
 	<footer>
 		<div class="container-fluid ">	
 			<div class="row">
-				<div class="col-md-6 text-center">
+				<div class="col-sm-6 text-center">
 					<h3 >Donde estoy</h3>
 					<p >Ciudad Autonoma de Buenos Aires </p><!-- mapa -->
 				</div>
-				<div class="col-md-6">
+				<div class="col-sm-6">
 					<h3 class="text-center">Sigueme</h3>
-					<div>
-						<a href=""><img src=""></a>
-						<a href=""><img src=""></a>
-						<a href=""><img src=""></a>
+					<div class="text-center">
+						<a href="https://github.com/OLiiver" target="_blank"><img class="img-redes" alt="imagen de git hub"src="images/github.svg"></a>
+						<a href="https://twitter.com/Reviilo" target="_blank"><img class="img-redes" alt="imagen de twitter" src="http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/twiter_zpsilqnblml.png"></a>
+						<a href="https://ar.linkedin.com/pub/oliver-ramírez/b6/115/902" target="_blank"><img class="img-redes" alt="imagen de linkedin" src="http://i611.photobucket.com/albums/tt194/guardian_1_5/web-perfil/linkedin_zpstufyztvq.png"></a>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-12">
 						<h4 class="text-center">Copyright &copy  Oliver Ramirez </h4>
 				</div>
 			</div>
