@@ -18,9 +18,10 @@
 <body>
 	<!-- Encabezado - menu -->
 	<div class="container-fluid background-main">
-		<div class="row">
-			<div class="col-md-12">
-				<header>	
+		<header>	
+			<div class="row">
+			
+				<div class="col-md-12">
 						<nav class="col-md-12 text-center">
 							<img src="images/logo.png" alt="Logo">
 							<a href="#">Sobre mí</a>
@@ -36,44 +37,101 @@
 	<!--  contenedor del contenido   -->
 	<div>
 		<!--   Acerca de mi  -->
-		<div class="background-about">
+		<div class="background-about background">
 			<div class="container-fluid ">
 			<!--  titulo - sub-titulo  -->
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h2>Oliver Ramirez</h2>
+						<h2 class="nombre">Oliver Ramirez</h2>
 						<h3>Front end developer</h3>
 					</div>
 				</div>
 					<!--  Imagen, descripción y habilidades -->
 				<div class="row ">
-					<div class="col-md-6 text-center">
-						<img src="" alt="Imagen de perfil">
+					<div class="col-md-6 text-center descripcion">
+						<img  class="img-perfil" src="images/oliiv.jpg" alt="Imagen de perfil">
 						<p>Soy Diseñador y Desarrollador web.</p>
 						<p>Amante del diseño, la fotografia</p>
-						<p>y experimentar por montones</p>
-						<a class="btn btn-info">Contacto</a>
+						<p>y experimentar por montones codeando</p>
+						<a class="btn btn-info btn-lg">Contacto</a>
 					</div>
 					<!--   Habilidades   -->
+
 					<div class="col-md-6">
 						<h3>Habilidades</h3>
-						<ul>
-							<li>HTML 5</li>
-							<li>CSS 3</li>
-							<li>javaScript</li>
-							<li>Jquery</li>
-							<li>Boostrap</li>
-							<li>PHP</li>
-							<li>Ilustrator</li>
-							<li>Photoshop</li>
-							<li>Wordpress</li>
-						</ul>
+						<div class="row habi">
+							<div class="col-md-3">
+								<ul>
+									<li> HTML 5 </li>
+									<li> CSS 3 </li>
+									<li> javaScript </li>
+									<li> Jquery </li>
+									<li> Boostrap </li>
+									<li> PHP </li>
+									<li> Ilustrator </li>
+									<li> Photoshop </li>
+									<li> Wordpress </li>
+								</ul>
+							</div>
+							<div class="col-md-9 bar">
+								<ul>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 70%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 75%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 60%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 55%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 70%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 40%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 40%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 40%"></span>
+										</div> 
+									</li>
+									<li> 
+										<div class="meter orange nostripes">
+											<span style="width: 60%"></span>
+										</div> 
+									</li>
+								</ul>
+								
+							</div>
+
+						</div>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 			<!--   Portafolio  -->
-		<div class="background-portfolio">
+		<div class="background-portfolio background">
 			<div class="container-fluid ">	
 				<div class="row">
 					<div class="col-md-12">
@@ -85,21 +143,31 @@
 			</div>
 		</div>
 			<!--  Contacto   -->
-		<div class="background-contact">
-			<div class="container-fluid ">	
+		<div class="background-contact background">
+			<div class="container ">	
 				<div class="row">
 					<div class="col-md-12">
+						<div class="background-form">
 
-					<form>
-						Nombre
-						<input type="text" name="nombre" value="Nombre" />
-						<br>
-						Correo
-						<input type="text" name="email" value="correo" />
-						Mensaje
-						<input type="text" name="mensaje" value"Mensaje" />
-						<input type="submit" />
-					</form>
+						<form name="sentMessage" role="form">
+							<div class="form-group">
+								<label for="name">Nombre</label>
+								<input type="text" name="nombre" placeholder="Nombre" class="form-con"/>
+							</div>
+							<br />
+							<div class="form-group">
+								<label for="email">Correo </label>
+								<input type="text" name="email" placeholder="email" class="form-con"/>
+							</div>
+							<br />
+							<div class="form-group">
+								<label for="message">Mensaje</label>
+								<input type="text" name="mensaje" placeholder="Mensaje" class="form-con"/>
+							</div>
+							<br />
+							<input type="submit" class="btn btn-inf btn-large"/>
+						</form>
+						</div>
 					</div>
 				</div>
 			</div>
