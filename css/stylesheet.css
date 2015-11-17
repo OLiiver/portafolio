@@ -1,3 +1,17 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 28px;
+	font-family: 'Bree Serif', serif;
+}
+
+a {
+	font-family: 'Pacifico', cursive;
+}
+
 header {
 	color: white;
 	padding: 40px;
@@ -72,7 +86,11 @@ ul {
 }
 
 .nombre{
-	font-size: 40px;
+	font-size: 65px;
+	font-family: 'Sigmar One', cursive;
+}
+.nom-sub {
+	font-family: 'Lobster', cursive;
 }
 
 .descripcion {
@@ -127,7 +145,7 @@ label {
 
 .orange > span {
 
-	background-color: #f1a165;
+	background-color: #00C5FF;
 	display: block;
 	height: 100%;
 	box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4);
